@@ -7,3 +7,8 @@ How to Use:
 2) run index.py
 3) enter the url of the video which you want to download.
 
+![](/screenshot/link.png)
+
+![](/screenshot/appimg.png)
+
+![](/screenshot/resolution.png)
