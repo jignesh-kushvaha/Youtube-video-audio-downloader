@@ -97,7 +97,7 @@ class YouTubeDownloaderApp:
             if download_type == "video":
                 stream = yt.streams.filter(progressive=True)
                 l_res = [s.resolution for s in stream]
-                print(l_res)
+                # print(l_res)
                 if loc_resolution in l_res:
                     stream = yt.streams.filter(progressive=True, file_extension="mp4", resolution=loc_resolution).first()
                     # file_size = stream.filesize
